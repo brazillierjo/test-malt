@@ -68,7 +68,6 @@
   <script src="/joomla-dev-mrehab-2/media/widgetkit/wk-scripts-632c1daa.js" type="text/javascript"></script>
   <script src="./Js/index.js"></script>
   <script src="/joomla-dev-mrehab-2/templates/tableaudebordpatient/js/template.js"></script>
-
   <script src="https://kit.fontawesome.com/ba43b9042d.js" crossorigin="anonymous"></script>
 </head>
 
@@ -78,12 +77,6 @@
       <div id="maincontent" class="maincontent noright">
         <div class="inner clearfix">
           <aside id="leftpatient" class="column column1">
-            <div id="logo2" class="tck-logo">
-              <div class="inner clearfix"><a
-                  href="https://dev.avis2sante.net/joomla-dev-mrehab-2/index.php?option=com_wp&amp;Itemid=448"><img
-                    class="tck-logo-img" src="/joomla-dev-mrehab-2/templates/tableaudebordpatient/images/Logo_blanc.png"
-                    width="216" height="53" alt=""></a></div>
-            </div>
             <div id="profilpatient">
               <div class="inner clearfix " data-position="profilpatient">
                 <div class="tck-module moduletable">
@@ -152,12 +145,12 @@
                   <div id="notifs" class="flexiblemodule ">
                     <div class="inner clearfix " data-position="notifs">
                       <div class="tck-module moduletable">
-                        <div class="tck-module-text"><a
-                            href="https://dev.avis2sante.net/joomla-dev-mrehab-2/index.php?option=com_content&amp;view=article&amp;id=107&amp;Itemid=275"><i
-                              class="fas fa-bell" aria-hidden="true"></i>
+                        <div class="tck-module-text">
+                          <a
+                            href="https://dev.avis2sante.net/joomla-dev-mrehab-2/index.php?option=com_content&amp;view=article&amp;id=107&amp;Itemid=275">
+                            <i class="fas fa-bell" aria-hidden="true"></i>
                             <div id="mod_notificationscount_display" hidden=""></div>
                           </a>
-                          < !-- <a hreh="#" onClick="displayEngageBoxNotif(14,1)">nt</a>-->
                         </div>
                       </div>
                     </div>
@@ -173,9 +166,9 @@
                   <div class="row-fluid">
                     <div class="span12">
                       <div class="thumbnail patientGoal">
-                        <div class="patientGoal"><i class="fas fa-bullseye" aria-hidden="true"></i><span>Gérer mon
-                            humeur,
-                            me sentir bien dans ma tête</span><a
+                        <div class="patientGoal">
+                          <i class="fas fa-bullseye" aria-hidden="true"></i>
+                          <span>Gérer mon humeur, me sentir bien dans ma tête</span><a
                             href="https://dev.avis2sante.net/joomla-dev-mrehab-2/index.php?option=com_fabrik&amp;view=form&amp;formid=107&amp;Itemid=448&amp;rowid=149&amp;ret=1"
                             style="font-size: .75em; margin-left: 1.2em;" class="btn btn-primary">Changer d'objectif</a>
                         </div>
@@ -185,32 +178,36 @@
                   <p></p>
                   <div class="row-fluid">
                     <div class="span12 widgets">
-                      <ul class="thumbnails" style="margin: 0; padding: 0;">
-                        <li class="pull-right span6 antidecal stats_bloc" style="margin: 0; padding: 0;"><input
-                            type="hidden" name="mod-widget-display-prefs_status" value="hidden">
+                      <ul class="thumbnails">
+                        <li class="pull-right span6 antidecal stats_bloc">
+                          <input type="hidden" name="mod-widget-display-prefs_status" value="hidden">
+
                           <div class="">
                             <div class="row">
                               <div class="widget_stats_icon pull-right"><a id="mod-widget-display-prefs"
                                   class="btn btn-default" title="Préférences d'affichage des indicateurs"><i
                                     class="fa fa-cog" aria-hidden="true"></i></a></div>
                               <div class="widget_stats_icon pull-right"><a id="mod-widget-display-prefs_cancel"
-                                  class="btn btn-warning" style="display: none;" href="#"
-                                  title="Annuler (préférences inchangées)">Annuler (préférences inchangées) </a></div>
-                              <div class="widget_stats_icon pull-right"><a id="mod-widget-display-prefs_save"
-                                  class="btn btn-success" style="display: none;" href="#"
+                                  class="btn btn-warning" href="#" title="Annuler (préférences inchangées)">Annuler
+                                  (préférences inchangées)</a>
+                              </div>
+                              <div class="widget_stats_icon pull-right">
+                                <a id="mod-widget-display-prefs_save" class="btn btn-success" href="#"
                                   title="Sauvegarder les préférences">
-                                  < !-- Sauvegarder les préférences-->Afficher les préférences
-                                </a></div>
+                                  <!-- Sauvegarder les préférences-->Afficher les préférences
+                                </a>
+                              </div>
                             </div>
                           </div>
+
                         </li>
-                        < !-- mod_widgets_display_prefs -->
                       </ul>
                     </div>
                   </div>
+
                   <div class="row-fluid">
                     <div class="span12 widgets">
-                      <ul class="thumbnails" style="margin-bottom: 0px;">
+                      <ul class="thumbnails">
                         <li class="span6 nbrPas  antidecal stats_bloc"><input type="hidden" name="nbrPas_prefs"
                             value="shown">
                           <div class="thumbnail">
@@ -218,14 +215,13 @@
                             <div class="widget_stats_icon pull-right"><i class="fa fa-2x fa-clock-o"
                                 aria-hidden="true"></i></div>
                             <div class="widget_stats_icon pull-right"><a id="nbrPas_hide" class="btn btn-warning"
-                                style="display: none;" title="Cacher cet indicateur"><i class="fa fa-eye-slash"
-                                  aria-hidden="true"></i></a></div>
+                                title="Cacher cet indicateur"><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
+                            </div>
                             <div class="widget_stats_icon pull-right"><a id="nbrPas_show" class="btn btn-success"
-                                style="display: none;" title="Afficher cet indicateur"><i class="fa fa-eye"
-                                  aria-hidden="true"></i></a></div>
+                                title="Afficher cet indicateur"><i class="fa fa-eye" aria-hidden="true"></i></a></div>
                             <div class="widget_stats_value">
-                              <h1 class="text-neutral">12 000 <small class="widget_stats_unit"></small></h1><small
-                                style="text-align: left;">06/01/2021</small>
+                              <h1 class="text-neutral">12 000 <small class="widget_stats_unit"></small></h1>
+                              <small>06/01/2021</small>
                             </div>
                             <div class="row widget_options">
                               <div class="widget_stats_icon pull-right"><a class="btn btn-default"
@@ -245,14 +241,13 @@
                             <div class="widget_stats_icon pull-right"><i class="fa fa-2x fa-balance-scale"
                                 aria-hidden="true"></i></div>
                             <div class="widget_stats_icon pull-right"><a id="poids_hide" class="btn btn-warning"
-                                style="display: none;" title="Cacher cet indicateur"><i class="fa fa-eye-slash"
-                                  aria-hidden="true"></i></a></div>
+                                title="Cacher cet indicateur"><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
+                            </div>
                             <div class="widget_stats_icon pull-right"><a id="poids_show" class="btn btn-success"
-                                style="display: none;" title="Afficher cet indicateur"><i class="fa fa-eye"
-                                  aria-hidden="true"></i></a></div>
+                                title="Afficher cet indicateur"><i class="fa fa-eye" aria-hidden="true"></i></a></div>
                             <div class="widget_stats_value">
-                              <h1 class="text-neutral">71.7 <small class="widget_stats_unit">kg</small></h1><small
-                                style="text-align: left;">07/01/2021</small>
+                              <h1 class="text-neutral">71.7 <small class="widget_stats_unit">kg</small></h1>
+                              <small>07/01/2021</small>
                             </div>
                             <div class="row widget_options">
                               <div class="widget_stats_icon pull-right"><a class="btn btn-default"
@@ -270,7 +265,7 @@
                   </div>
                   <div class="row-fluid">
                     <div class="span12 widgets">
-                      <ul class="thumbnails" style="margin-bottom: 0px;">
+                      <ul class="thumbnails">
                         <li class="span6 tension  antidecal stats_bloc"><input type="hidden" name="tension_prefs"
                             value="shown">
                           <div class="thumbnail">
@@ -278,15 +273,14 @@
                             <div class="widget_stats_icon pull-right"><i class="fa fa-2x fa-heartbeat"
                                 aria-hidden="true"></i></div>
                             <div class="widget_stats_icon pull-right"><a id="tension_hide" class="btn btn-warning"
-                                style="display: none;" title="Cacher cet indicateur"><i class="fa fa-eye-slash"
-                                  aria-hidden="true"></i></a></div>
+                                title="Cacher cet indicateur"><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
+                            </div>
                             <div class="widget_stats_icon pull-right"><a id="tension_show" class="btn btn-success"
-                                style="display: none;" title="Afficher cet indicateur"><i class="fa fa-eye"
-                                  aria-hidden="true"></i></a></div>
+                                title="Afficher cet indicateur"><i class="fa fa-eye" aria-hidden="true"></i></a></div>
                             <div class="widget_stats_value">
                               <h1 class="text-neutral"><span class="systolicValue good">128</span>/ <span
                                   class="diastolicValue bad">91</span><small class="widget_stats_unit">mmHg</small></h1>
-                              <small style="text-align: left;">07/01/2021</small>
+                              <small>07/01/2021</small>
                             </div>
                             <div class="row widget_options">
                               <div class="widget_stats_icon pull-right"><a class="btn btn-default"
@@ -305,13 +299,12 @@
                             <div class="widget_stats_icon pull-right"><i class="fa fa-2x fa-hourglass"
                                 aria-hidden="true"></i></div>
                             <div class="widget_stats_icon pull-right"><a id="ppc_hide" class="btn btn-warning"
-                                style="display: none;" title="Cacher cet indicateur"><i class="fa fa-eye-slash"
-                                  aria-hidden="true"></i></a></div>
+                                title="Cacher cet indicateur"><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
+                            </div>
                             <div class="widget_stats_icon pull-right"><a id="ppc_show" class="btn btn-success"
-                                style="display: none;" title="Afficher cet indicateur"><i class="fa fa-eye"
-                                  aria-hidden="true"></i></a></div>
+                                title="Afficher cet indicateur"><i class="fa fa-eye" aria-hidden="true"></i></a></div>
                             <div class="widget_stats_value">
-                              <h1 class="text-neutral bad">- - </h1><small style="text-align: left;">pas de donnée
+                              <h1 class="text-neutral bad">- - </h1><small>pas de donnée
                                 enregistrée</small>
                             </div>
                             <div class="row widget_options">
@@ -329,7 +322,7 @@
                   </div>
                   <div class="row-fluid">
                     <div class="span12">
-                      <ul class="thumbnails" style="margin-bottom: 0px;">
+                      <ul class="thumbnails">
                         < !-- <li class="span4 antidecal"><a class="thumbnail commonLink"
                             href="/joomla-dev-mrehab-2/index.php?option=com_obsewhere&amp;view=notifs&amp;filter_notif=&amp;filter_state=&amp;filter_search=">
                             <div class="widget_container widget_not_active">
@@ -402,7 +395,7 @@
                   </div>
                   <div class="row-fluid mobileShow">
                     <div class="span12">
-                      <ul class="thumbnails" style="margin-bottom: 0px;">
+                      <ul class="thumbnails">
                         <li class="span4 antidecal content_bloc"><a class="thumbnail commonLink" href="#linkTODO">
                             <div class="widget_container"><i class="fa fa-6x fa-video-camera" aria-hidden="true"></i>
                               <div class="widget_title">Téléconsultation médicale </div>
