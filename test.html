@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-fr" lang="fr-fr" dir="ltr" class="uk-notouch">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Joomla! - Open Source Content Management">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Accueil WP</title>
+
+  <link href="/joomla-dev-mrehab-2/plugins/system/jce/css/content.css?0eef44850711ff2dfbf0d1bea85a01ed" rel="stylesheet"
+    type="text/css">
+  <link href="/joomla-dev-mrehab-2/media/plg_engagebox_yesno/css/styles.css?0eef44850711ff2dfbf0d1bea85a01ed"
+    rel="stylesheet" type="text/css">
+  <link href="/joomla-dev-mrehab-2/media/com_rstbox/css/engagebox.css?0eef44850711ff2dfbf0d1bea85a01ed" rel="stylesheet"
+    type="text/css">
+  <link href="https://dev.avis2sante.net/joomla-dev-mrehab-2/plugins/system/joompush/asset/css/joompush.css"
+    rel="stylesheet" type="text/css">
+  <link href="/joomla-dev-mrehab-2/media/widgetkit/wk-styles-5c87cc5f.css" rel="stylesheet" type="text/css"
+    id="wk-styles-css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="manifest"
+    href="https://dev.avis2sante.net/joomla-dev-mrehab-2//plugins/system/joompush/asset/manifest.json">
+  <link rel="stylesheet" href="/joomla-dev-mrehab-2/templates/tableaudebordpatient/css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="/joomla-dev-mrehab-2/templates/tableaudebordpatient/css/template.css" type="text/css">
+  <link rel="stylesheet" href="/joomla-dev-mrehab-2/templates/tableaudebordpatient/css/font-awesome.min.css"
+    type="text/css">
+  <link rel="stylesheet" href="/joomla-dev-mrehab-2/templates/tableaudebordpatient/css/custom.css" type="text/css">
+  <link rel="stylesheet" href="/joomla-dev-mrehab-2/templates/tableaudebordpatient/css/mobile.css" type="text/css">
+  <link rel="icon" href="/joomla-dev-mrehab-2/images/icons/favicon.ico">
+  <link rel="stylesheet" href="/joomla-dev-mrehab-2/templates/tableaudebordpatient/scss/style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&amp;display=swap" rel="stylesheet">
+
+  <script type="application/json" class="joomla-script-options loaded">
+    {
+      "csrf.token": "fe9fc0f045644f89aef36a19c94214e6",
+      "system.paths": {
+        "root": "\/joomla-dev-mrehab-2",
+        "base": "\/joomla-dev-mrehab-2"
+      }
+    }
+  </script>
+  <script src="/joomla-dev-mrehab-2/media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/joomla-dev-mrehab-2/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="/joomla-dev-mrehab-2/media/system/js/core.js?0eef44850711ff2dfbf0d1bea85a01ed" type="text/javascript">
+  </script>
+  <script src="/joomla-dev-mrehab-2/media/jui/js/bootstrap.min.js?0eef44850711ff2dfbf0d1bea85a01ed"
+    type="text/javascript"></script>
+  <script
+    src="https://dev.avis2sante.net/joomla-dev-mrehab-2/media/mod_widgets_display_prefs/js/widgets-display-prefs.js"
+    type="text/javascript"></script>
+  <script src="/joomla-dev-mrehab-2/media/com_rstbox/js/vendor/velocity.js?0eef44850711ff2dfbf0d1bea85a01ed"
+    type="text/javascript"></script>
+  <script src="/joomla-dev-mrehab-2/media/com_rstbox/js/vendor/velocity.ui.js?0eef44850711ff2dfbf0d1bea85a01ed"
+    type="text/javascript"></script>
+  <script src="/joomla-dev-mrehab-2/media/com_rstbox/js/engagebox.js?0eef44850711ff2dfbf0d1bea85a01ed"
+    type="text/javascript"></script>
+  <script src="/joomla-dev-mrehab-2/media/com_rstbox/js/legacy.js?0eef44850711ff2dfbf0d1bea85a01ed"
+    type="text/javascript"></script>
+  <script src="https://dev.avis2sante.net/joomla-dev-mrehab-2/media/mod_notificationscount/js/script.js"
+    type="text/javascript"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js" type="text/javascript"></script>
+  <script src="https://dev.avis2sante.net/joomla-dev-mrehab-2/plugins/system/joompush/asset/js/joompush.js"
+    type="text/javascript"></script>
+  <script src="/joomla-dev-mrehab-2/media/widgetkit/uikit2-d1a4b4a6.js" type="text/javascript"></script>
+  <script src="/joomla-dev-mrehab-2/media/widgetkit/wk-scripts-632c1daa.js" type="text/javascript"></script>
+  <script src="./Js/index.js"></script>
+  <script src="/joomla-dev-mrehab-2/templates/tableaudebordpatient/js/template.js"></script>
+
+  <script src="https://kit.fontawesome.com/ba43b9042d.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="com_wp -body view-main no-layout no-task itemid-448 ltr" cz-shortcut-listen="true">
+  <div id="wrapper" class="tck-wrapper">
+    <div class="inner  tck-container">
+      <div id="maincontent" class="maincontent noright">
+        <div class="inner clearfix">
+          <aside id="leftpatient" class="column column1">
+            <div id="logo2" class="tck-logo">
+              <div class="inner clearfix"><a
+                  href="https://dev.avis2sante.net/joomla-dev-mrehab-2/index.php?option=com_wp&amp;Itemid=448"><img
+                    class="tck-logo-img" src="/joomla-dev-mrehab-2/templates/tableaudebordpatient/images/Logo_blanc.png"
+                    width="216" height="53" alt=""></a></div>
+            </div>
+            <div id="profilpatient">
+              <div class="inner clearfix " data-position="profilpatient">
+                <div class="tck-module moduletable">
+                  <div class="tck-module-text"><a
+                      href="/joomla-dev-mrehab-2/index.php?option=com_content&amp;view=article&amp;id=155&amp;Itemid=346"><img
+                        src="https://dev.avis2sante.net/joomla-dev-mrehab-2//images/stories/1109/photo-profil.jpg">
+                      <h3>Hervé LEDUR</h3><span>Modifier mon profil<span></span></span>
+                    </a><a
+                      href="/joomla-dev-mrehab-2/index.php?option=com_users&amp;view=login&amp;layout=logout&amp;task=user.menulogout&amp;Itemid=307"
+                      class="btn btn-primary">Se déconnecter</a></div>
+                </div>
+              </div>
+            </div>
+            <div id="menuleftpatient">
+              <div class="inner clearfix " data-position="menuleftpatient">
+                <div class="tck-module moduletable">
+                  <div class="tck-module-text">
+                    <ul class="nav menu mod-list">
+                      <li class="item-275"><a
+                          href="/joomla-dev-mrehab-2/index.php?option=com_wp&amp;view=main&amp;id=1&amp;Itemid=448"
+                          class="menuHome">Accueil</a></li>
+                      <li class="item-291"><a
+                          href="/joomla-dev-mrehab-2/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=16&amp;Itemid=291"
+                          class="menuNews">Fil d'actualités</a></li>
+                      <li class="item-406"><a
+                          href="/joomla-dev-mrehab-2/index.php?option=com_content&amp;view=article&amp;id=121&amp;Itemid=406"
+                          class="messenger">Messagerie</a></li>
+                      <li class="item-538"><a
+                          href="/joomla-dev-mrehab-2/index.php?option=com_fabrik&amp;view=list&amp;listid=181&amp;Itemid=538"
+                          class="menuTLC">Mes téléconsultations</a></li>
+                      <li class="item-308"><a
+                          href="/joomla-dev-mrehab-2/index.php?option=com_calendars&amp;view=calendar&amp;Itemid=308"
+                          class="menuAgenda">Agenda</a></li>
+                      <li class="item-535"><a
+                          href="/joomla-dev-mrehab-2/index.php?option=com_wp&amp;view=sleepagendas&amp;Itemid=535"
+                          class="menuAgendaSommeil">Agenda sommeil</a></li>
+                      <li class="item-293"><a
+                          href="/joomla-dev-mrehab-2/index.php?option=com_defis&amp;view=answer&amp;layout=selection&amp;Itemid=293"
+                          class="menuChallenge">Défis</a></li>
+                      <li class="item-292"><a href="#" class="menuBilan">Bilan</a></li>
+                      <li class="item-288"><a
+                          href="/joomla-dev-mrehab-2/index.php?option=com_rsform&amp;view=rsform&amp;formId=3&amp;Itemid=288"
+                          class="menuContact">Contact support</a></li>
+                      <li class="item-488"><a
+                          href="/joomla-dev-mrehab-2/index.php?option=com_fabrik&amp;view=form&amp;formid=77&amp;Itemid=488"
+                          class="menuAlert">Alertes</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
+          <div id="main" class="column main row-fluid">
+            <div class="inner clearfix">
+              <section id="blocks1" class="tck-modules">
+                <div class="inner clearfix n2">
+                  <div id="managercontact" class="flexiblemodule ">
+                    <div class="inner clearfix " data-position="managercontact">
+                      <div class="tck-module moduletable">
+                        <div class="tck-module-text">
+                          <div class="custom"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="notifs" class="flexiblemodule ">
+                    <div class="inner clearfix " data-position="notifs">
+                      <div class="tck-module moduletable">
+                        <div class="tck-module-text"><a
+                            href="https://dev.avis2sante.net/joomla-dev-mrehab-2/index.php?option=com_content&amp;view=article&amp;id=107&amp;Itemid=275"><i
+                              class="fas fa-bell" aria-hidden="true"></i>
+                            <div id="mod_notificationscount_display" hidden=""></div>
+                          </a>
+                          < !-- <a hreh="#" onClick="displayEngageBoxNotif(14,1)">nt</a>-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="clr"></div>
+                </div>
+              </section>
+              <div id="maincenter" class="maincenter ">
+                <div class="inner clearfix">
+                  <div id="system-message-container"></div>
+                  <h2 class="homeTitle">Bienvenue sur le site m-Rehab !</h2>
+                  <p></p>
+                  <div class="row-fluid">
+                    <div class="span12">
+                      <div class="thumbnail patientGoal">
+                        <div class="patientGoal"><i class="fas fa-bullseye" aria-hidden="true"></i><span>Gérer mon
+                            humeur,
+                            me sentir bien dans ma tête</span><a
+                            href="https://dev.avis2sante.net/joomla-dev-mrehab-2/index.php?option=com_fabrik&amp;view=form&amp;formid=107&amp;Itemid=448&amp;rowid=149&amp;ret=1"
+                            style="font-size: .75em; margin-left: 1.2em;" class="btn btn-primary">Changer d'objectif</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p></p>
+                  <div class="row-fluid">
+                    <div class="span12 widgets">
+                      <ul class="thumbnails" style="margin: 0; padding: 0;">
+                        <li class="pull-right span6 antidecal stats_bloc" style="margin: 0; padding: 0;"><input
+                            type="hidden" name="mod-widget-display-prefs_status" value="hidden">
+                          <div class="">
+                            <div class="row">
+                              <div class="widget_stats_icon pull-right"><a id="mod-widget-display-prefs"
+                                  class="btn btn-default" title="Préférences d'affichage des indicateurs"><i
+                                    class="fa fa-cog" aria-hidden="true"></i></a></div>
+                              <div class="widget_stats_icon pull-right"><a id="mod-widget-display-prefs_cancel"
+                                  class="btn btn-warning" style="display: none;" href="#"
+                                  title="Annuler (préférences inchangées)">Annuler (préférences inchangées) </a></div>
+                              <div class="widget_stats_icon pull-right"><a id="mod-widget-display-prefs_save"
+                                  class="btn btn-success" style="display: none;" href="#"
+                                  title="Sauvegarder les préférences">
+                                  < !-- Sauvegarder les préférences-->Afficher les préférences
+                                </a></div>
+                            </div>
+                          </div>
+                        </li>
+                        < !-- mod_widgets_display_prefs -->
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row-fluid">
+                    <div class="span12 widgets">
+                      <ul class="thumbnails" style="margin-bottom: 0px;">
+                        <li class="span6 nbrPas  antidecal stats_bloc"><input type="hidden" name="nbrPas_prefs"
+                            value="shown">
+                          <div class="thumbnail">
+                            <div class="widget_title pull-left">Nombre de pas </div>
+                            <div class="widget_stats_icon pull-right"><i class="fa fa-2x fa-clock-o"
+                                aria-hidden="true"></i></div>
+                            <div class="widget_stats_icon pull-right"><a id="nbrPas_hide" class="btn btn-warning"
+                                style="display: none;" title="Cacher cet indicateur"><i class="fa fa-eye-slash"
+                                  aria-hidden="true"></i></a></div>
+                            <div class="widget_stats_icon pull-right"><a id="nbrPas_show" class="btn btn-success"
+                                style="display: none;" title="Afficher cet indicateur"><i class="fa fa-eye"
+                                  aria-hidden="true"></i></a></div>
+                            <div class="widget_stats_value">
+                              <h1 class="text-neutral">12 000 <small class="widget_stats_unit"></small></h1><small
+                                style="text-align: left;">06/01/2021</small>
+                            </div>
+                            <div class="row widget_options">
+                              <div class="widget_stats_icon pull-right"><a class="btn btn-default"
+                                  href="/joomla-dev-mrehab-2/index.php?option=com_fabrik&amp;view=form&amp;Itemid=448&amp;formid=113"
+                                  title="Ajouter des données"><i class="fa fa-plus" aria-hidden="true"></i></a></div>
+                              <div class="widget_stats_icon pull-right"><a class="btn btn-default"
+                                  href="/joomla-dev-mrehab-2/index.php?option=com_content&amp;view=article&amp;id=152&amp;Itemid=536&amp;cinetique=1&amp;type=step"
+                                  title="Graphique des données"><i class="fa fa-line-chart" aria-hidden="true"></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="span6 poids  antidecal stats_bloc"><input type="hidden" name="poids_prefs"
+                            value="shown">
+                          <div class="thumbnail">
+                            <div class="widget_title pull-left">Poids </div>
+                            <div class="widget_stats_icon pull-right"><i class="fa fa-2x fa-balance-scale"
+                                aria-hidden="true"></i></div>
+                            <div class="widget_stats_icon pull-right"><a id="poids_hide" class="btn btn-warning"
+                                style="display: none;" title="Cacher cet indicateur"><i class="fa fa-eye-slash"
+                                  aria-hidden="true"></i></a></div>
+                            <div class="widget_stats_icon pull-right"><a id="poids_show" class="btn btn-success"
+                                style="display: none;" title="Afficher cet indicateur"><i class="fa fa-eye"
+                                  aria-hidden="true"></i></a></div>
+                            <div class="widget_stats_value">
+                              <h1 class="text-neutral">71.7 <small class="widget_stats_unit">kg</small></h1><small
+                                style="text-align: left;">07/01/2021</small>
+                            </div>
+                            <div class="row widget_options">
+                              <div class="widget_stats_icon pull-right"><a class="btn btn-default"
+                                  href="/joomla-dev-mrehab-2/index.php?option=com_fabrik&amp;view=form&amp;Itemid=448&amp;formid=110"
+                                  title="Ajouter des données"><i class="fa fa-plus" aria-hidden="true"></i></a></div>
+                              <div class="widget_stats_icon pull-right"><a class="btn btn-default"
+                                  href="/joomla-dev-mrehab-2/index.php?option=com_content&amp;view=article&amp;id=152&amp;Itemid=536&amp;cinetique=1&amp;type=weights"
+                                  title="Graphique des données"><i class="fa fa-line-chart" aria-hidden="true"></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row-fluid">
+                    <div class="span12 widgets">
+                      <ul class="thumbnails" style="margin-bottom: 0px;">
+                        <li class="span6 tension  antidecal stats_bloc"><input type="hidden" name="tension_prefs"
+                            value="shown">
+                          <div class="thumbnail">
+                            <div class="widget_title pull-left">Tension (systolique / diastolique) </div>
+                            <div class="widget_stats_icon pull-right"><i class="fa fa-2x fa-heartbeat"
+                                aria-hidden="true"></i></div>
+                            <div class="widget_stats_icon pull-right"><a id="tension_hide" class="btn btn-warning"
+                                style="display: none;" title="Cacher cet indicateur"><i class="fa fa-eye-slash"
+                                  aria-hidden="true"></i></a></div>
+                            <div class="widget_stats_icon pull-right"><a id="tension_show" class="btn btn-success"
+                                style="display: none;" title="Afficher cet indicateur"><i class="fa fa-eye"
+                                  aria-hidden="true"></i></a></div>
+                            <div class="widget_stats_value">
+                              <h1 class="text-neutral"><span class="systolicValue good">128</span>/ <span
+                                  class="diastolicValue bad">91</span><small class="widget_stats_unit">mmHg</small></h1>
+                              <small style="text-align: left;">07/01/2021</small>
+                            </div>
+                            <div class="row widget_options">
+                              <div class="widget_stats_icon pull-right"><a class="btn btn-default"
+                                  href="/joomla-dev-mrehab-2/index.php?option=com_fabrik&amp;view=form&amp;Itemid=448&amp;formid=117"
+                                  title="Ajouter des données"><i class="fa fa-plus" aria-hidden="true"></i></a></div>
+                              <div class="widget_stats_icon pull-right"><a class="btn btn-default"
+                                  href="/joomla-dev-mrehab-2/index.php?option=com_content&amp;view=article&amp;id=152&amp;Itemid=536&amp;cinetique=1&amp;type=pressure"
+                                  title="Graphique des données"><i class="fa fa-line-chart" aria-hidden="true"></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="span6 ppc  antidecal stats_bloc"><input type="hidden" name="ppc_prefs" value="shown">
+                          <div class="thumbnail">
+                            <div class="widget_title pull-left">PPC </div>
+                            <div class="widget_stats_icon pull-right"><i class="fa fa-2x fa-hourglass"
+                                aria-hidden="true"></i></div>
+                            <div class="widget_stats_icon pull-right"><a id="ppc_hide" class="btn btn-warning"
+                                style="display: none;" title="Cacher cet indicateur"><i class="fa fa-eye-slash"
+                                  aria-hidden="true"></i></a></div>
+                            <div class="widget_stats_icon pull-right"><a id="ppc_show" class="btn btn-success"
+                                style="display: none;" title="Afficher cet indicateur"><i class="fa fa-eye"
+                                  aria-hidden="true"></i></a></div>
+                            <div class="widget_stats_value">
+                              <h1 class="text-neutral bad">- - </h1><small style="text-align: left;">pas de donnée
+                                enregistrée</small>
+                            </div>
+                            <div class="row widget_options">
+                              <div class="widget_stats_icon pull-right"><a class="btn btn-default" href="#"
+                                  title="Ajouter des données"><i class="fa fa-plus" aria-hidden="true"></i></a></div>
+                              <div class="widget_stats_icon pull-right"><a class="btn btn-default"
+                                  href="/joomla-dev-mrehab-2/index.php?option=com_content&amp;view=article&amp;id=152&amp;Itemid=536&amp;cinetique=1&amp;type=ppc"
+                                  title="Graphique des données"><i class="fa fa-line-chart" aria-hidden="true"></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row-fluid">
+                    <div class="span12">
+                      <ul class="thumbnails" style="margin-bottom: 0px;">
+                        < !-- <li class="span4 antidecal"><a class="thumbnail commonLink"
+                            href="/joomla-dev-mrehab-2/index.php?option=com_obsewhere&amp;view=notifs&amp;filter_notif=&amp;filter_state=&amp;filter_search=">
+                            <div class="widget_container widget_not_active">
+                              <p class="widget_title">Notifications </p>
+                              <p class="widget_stats" style="display:block">
+                                <div class="widget_icon"><i class="icon-stack"></i></div>
+                                <div class="widget_header"><span class="widget_value">14 <span
+                                      class="widget_unit">messages</span></span><span class="widget_period">consulter
+                                    vos messages </span></div>
+                              </p>
+                            </div>
+                          </a></li>--><li class="span3 antidecal"><a class="thumbnail commonLink"
+                              href="/joomla-dev-mrehab-2/index.php?option=com_wp&amp;view=tasks&amp;wp=mvc&amp;Itemid=448">
+                              <div class="widget_container"
+                                style="background-image: url('/joomla-dev-mrehab-2/plugins/work_package/mvc/mvc.jpg');">
+                                <p class="widget_title" style="color:#3399ff;">Mieux vous connaitre </p>
+                                <p class="widget_stats" style="display:block"></p>
+                                <div class="widget_icon"><i class=""></i></div>
+                                <div class="widget_header"><span class="widget_value">&nbsp;
+                                  </span><span class="widget_period">&nbsp;
+                                    &nbsp;
+                                  </span></div>
+                                <p></p>
+                              </div>
+                            </a></li>
+                          <li class="span3 antidecal"><a class="thumbnail commonLink"
+                              href="/joomla-dev-mrehab-2/index.php?option=com_wp&amp;view=tasks&amp;wp=san&amp;Itemid=448">
+                              <div class="widget_container"
+                                style="background-image: url('/joomla-dev-mrehab-2/plugins/work_package/sante/sante.jpg');">
+                                <p class="widget_title" style="color:#3399ff;">Santé </p>
+                                <p class="widget_stats" style="display:block"></p>
+                                <div class="widget_icon"><i class=""></i></div>
+                                <div class="widget_header"><span class="widget_value">&nbsp;
+                                  </span><span class="widget_period">&nbsp;
+                                    &nbsp;
+                                  </span></div>
+                                <p></p>
+                              </div>
+                            </a></li>
+                          <li class="span3 antidecal"><a class="thumbnail commonLink"
+                              href="/joomla-dev-mrehab-2/index.php?option=com_wp&amp;view=tasks&amp;wp=nut&amp;Itemid=448">
+                              <div class="widget_container"
+                                style="background-image: url('/joomla-dev-mrehab-2/plugins/work_package/nutrition/nutrition.jpg');">
+                                <p class="widget_title" style="color:#3399ff;">Nutrition </p>
+                                <p class="widget_stats" style="display:block"></p>
+                                <div class="widget_icon"><i class=""></i></div>
+                                <div class="widget_header"><span class="widget_value">&nbsp;
+                                  </span><span class="widget_period">&nbsp;
+                                    &nbsp;
+                                  </span></div>
+                                <p></p>
+                              </div>
+                            </a></li>
+                          <li class="span3 antidecal"><a class="thumbnail commonLink"
+                              href="/joomla-dev-mrehab-2/index.php?option=com_wp&amp;view=tasks&amp;wp=apa&amp;Itemid=448">
+                              <div class="widget_container"
+                                style="background-image: url('/joomla-dev-mrehab-2/plugins/work_package/apa/apa.jpg');">
+                                <p class="widget_title" style="color:#3399ff;">Activité physique adaptée </p>
+                                <p class="widget_stats" style="display:block"></p>
+                                <div class="widget_icon"><i class=""></i></div>
+                                <div class="widget_header"><span class="widget_value">&nbsp;
+                                  </span><span class="widget_period">&nbsp;
+                                    &nbsp;
+                                  </span></div>
+                                <p></p>
+                              </div>
+                            </a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row-fluid mobileShow">
+                    <div class="span12">
+                      <ul class="thumbnails" style="margin-bottom: 0px;">
+                        <li class="span4 antidecal content_bloc"><a class="thumbnail commonLink" href="#linkTODO">
+                            <div class="widget_container"><i class="fa fa-6x fa-video-camera" aria-hidden="true"></i>
+                              <div class="widget_title">Téléconsultation médicale </div>
+                            </div>
+                          </a></li>
+                        <li class="span4 antidecal content_bloc"><a class="thumbnail commonLink"
+                            href="/joomla-dev-mrehab-2/index.php?option=com_content&amp;view=article&amp;id=132&amp;Itemid=510">
+                            <div class="widget_container"><i class="fa fa-6x fa-book" aria-hidden="true"></i>
+                              <div class="widget_title">Ateliers numériques éducatifs </div>
+                            </div>
+                          </a></li>
+                        <li class="span4 antidecal content_bloc"><a class="thumbnail commonLink"
+                            href="/joomla-dev-mrehab-2/index.php?option=com_wp&amp;Itemid=448&amp;showWithingsModal=true">
+                            <div class="widget_container"><i class="fa fa-6x fa-plug" aria-hidden="true"></i>
+                              <div class="widget_title">Objets connectés </div>
+                            </div>
+                          </a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="clr"></div>
+                </div>
+              </div>
+              <div id="mainbottommodule">
+                <div class="inner clearfix " data-position="bottom">
+                  <div class="tck-module moduletable">
+                    <div class="tck-module-text">
+                      <div class="custom">
+                        <p><span style="color: red">En cas d'urgence, appeler le 15 <i class="fas fa-phone"
+                              aria-hidden="true"></i></span> - Copyright © m-Rehab 2020 - Propulsé par Avis2sante</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clr"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div data-id="14" class="eb-inst eb-hide eb-14 eb-bottom-right eb-yesno eboxCookieLaw alertRobbie eb-init rstbox"
+    data-options="{&quot;trigger&quot;:&quot;onDemand&quot;,&quot;trigger_selector&quot;:&quot;#notification&quot;,&quot;delay&quot;:0,&quot;scroll_depth&quot;:&quot;percentage&quot;,&quot;scroll_depth_value&quot;:80,&quot;firing_frequency&quot;:1,&quot;reverse_scroll_close&quot;:true,&quot;threshold&quot;:0,&quot;close_out_viewport&quot;:false,&quot;exit_timer&quot;:1000,&quot;idle_time&quot;:10000,&quot;animation_open&quot;:&quot;transition.slideUpBigIn&quot;,&quot;animation_close&quot;:&quot;transition.slideDownBigOut&quot;,&quot;animation_duration&quot;:300,&quot;prevent_default&quot;:true,&quot;backdrop&quot;:false,&quot;backdrop_color&quot;:&quot;rgba(0, 0, 0, 0.8)&quot;,&quot;backdrop_click&quot;:true,&quot;disable_page_scroll&quot;:false,&quot;test_mode&quot;:false,&quot;debug&quot;:true,&quot;ga_tracking&quot;:false,&quot;ga_tracking_id&quot;:0,&quot;ga_tracking_label&quot;:&quot;EngageBox&quot;}"
+    data-type="popup">
+    <div class="eb-dialog rstbox"
+      style="max-width:fit-content;background-color:rgba(255, 255, 255, 1);color:rgba(255, 255, 255, 1);border-radius:0px;padding:25px 30px;margin:30px;"
+      role="dialog" tabindex="-1" id="rstbox_14"><button type="button" data-ebox-cmd="close"
+        class="eb-close rstbox-close" aria-label="Close" style="color:rgba(174, 174, 174, 1);font-size:22px"><span
+          aria-hidden="true">×</span></button>
+      <div class="eb-container rstbox-container">
+        <div class="eb-content rstbox-content">
+          <div class="ebox-yes-no">
+            <div class="ebox-yn-text">
+              <div class="ebox-yn-headline" style="font-size:14px;color:#303030">
+                <p><img src="/joomla-dev-mrehab-2/images/Robbie/Robbie_happy.png"><i class="icon-warning"></i>Vous
+                  avez&nbsp;
+
+                  reçu {
+                  {
+                  nb_notifs
+                  }
+                  }
+
+                  nouvelle(s) notificaitons(s) !</p>
+              </div>
+            </div>
+            <div class="ebox-ys-buttons" style="font-size: 13px;"><a data-ebox-prevent="0" data-ebox-cmd="close"
+                target="_self"
+                href="/joomla-dev-mrehab-2/index.php?option=com_content&amp;view=article&amp;id=107&amp;Itemid=275"
+                rel="noopener" class="ebox-ys-btn" style="background-color:#7abfc2;color:#ffffff;min-width:75px">Lire
+                les notifications </a><a data-ebox-cmd="close" href="#" class="ebox-ys-btn"
+                style="background-color:#c7c3c4;color:#303030;min-width:75px">Fermer </a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div data-id="16" class="eb-inst eb-16 eb-center eb-yesno ebYN1 eb-init rstbox eb-hide"
+    data-options="{&quot;trigger&quot;:&quot;onPageLoad&quot;,&quot;trigger_selector&quot;:null,&quot;delay&quot;:0,&quot;scroll_depth&quot;:&quot;percentage&quot;,&quot;scroll_depth_value&quot;:80,&quot;firing_frequency&quot;:1,&quot;reverse_scroll_close&quot;:true,&quot;threshold&quot;:0,&quot;close_out_viewport&quot;:false,&quot;exit_timer&quot;:1000,&quot;idle_time&quot;:10000,&quot;animation_open&quot;:&quot;transition.slideUpIn&quot;,&quot;animation_close&quot;:&quot;transition.slideUpOut&quot;,&quot;animation_duration&quot;:400,&quot;prevent_default&quot;:true,&quot;backdrop&quot;:true,&quot;backdrop_color&quot;:&quot;rgba(0, 0, 0, 0.8)&quot;,&quot;backdrop_click&quot;:true,&quot;disable_page_scroll&quot;:false,&quot;test_mode&quot;:false,&quot;debug&quot;:true,&quot;ga_tracking&quot;:false,&quot;ga_tracking_id&quot;:0,&quot;ga_tracking_label&quot;:&quot;EngageBox&quot;}"
+    data-type="popup">
+    <div class="eb-dialog eb-shd1 eb-acm eb-acc rstbox"
+      style="max-width: 450px; background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); padding: 40px; opacity: 0; display: none; transform: translateY(0px);"
+      role="dialog" tabindex="-1" id="rstbox_16"><button type="button" data-ebox-cmd="close"
+        class="eb-close rstbox-close" aria-label="Close" style="color:rgba(174, 174, 174, 1);font-size:30px"><span
+          aria-hidden="true">×</span></button>
+      <div class="eb-container rstbox-container">
+        <div class="eb-content rstbox-content">
+          <div class="ebox-yes-no">
+            <div class="ebox-yn-text">
+              <div class="ebox-yn-headline" style="font-size:22px;color:#555555">
+                <p style="font-size: 18px;"><span style="font-size: 18pt;">« Bienvenue Hervé LEDUR sur l'espace&nbsp;de
+                    téléréhabilitation :</span></p>
+                <h2 style="font-size: 18px;"><span style="font-size: 24pt;">m-Rehab</span></h2>
+                <p style="font-size: 18px;"><span style="font-size: 18pt;">Je suis Robbie et je vous accompagnerai tout
+                    au long de votre parcours »</span></p>
+                <p style="font-size: 18px;"><img
+                    src="/joomla-dev-mrehab-2/images/Robbie/Robbie_happy.png"><code><br><br></code></p>
+              </div>
+            </div>
+            <div class="ebox-ys-buttons" style="font-size: 14px;"><a data-ebox-cmd="close" href="#" class="ebox-ys-btn"
+                style="background-color:#64ccc8;color:#ffffff;min-width:300px">Commencer ! </a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div data-id="17" class="eb-inst eb-hide eb-17 eb-bottom-right eb-yesno eboxCookieLaw alertRobbie eb-init rstbox"
+    data-options="{&quot;trigger&quot;:&quot;onDemand&quot;,&quot;trigger_selector&quot;:&quot;#notification&quot;,&quot;delay&quot;:0,&quot;scroll_depth&quot;:&quot;percentage&quot;,&quot;scroll_depth_value&quot;:80,&quot;firing_frequency&quot;:1,&quot;reverse_scroll_close&quot;:true,&quot;threshold&quot;:0,&quot;close_out_viewport&quot;:false,&quot;exit_timer&quot;:1000,&quot;idle_time&quot;:10000,&quot;animation_open&quot;:&quot;transition.slideUpBigIn&quot;,&quot;animation_close&quot;:&quot;transition.slideDownBigOut&quot;,&quot;animation_duration&quot;:300,&quot;prevent_default&quot;:true,&quot;backdrop&quot;:false,&quot;backdrop_color&quot;:&quot;rgba(0, 0, 0, 0.8)&quot;,&quot;backdrop_click&quot;:true,&quot;disable_page_scroll&quot;:false,&quot;test_mode&quot;:false,&quot;debug&quot;:true,&quot;ga_tracking&quot;:false,&quot;ga_tracking_id&quot;:0,&quot;ga_tracking_label&quot;:&quot;EngageBox&quot;}"
+    data-type="popup">
+    <div class="eb-dialog rstbox"
+      style="max-width:fit-content;background-color:rgba(255, 255, 255, 1);color:rgba(255, 255, 255, 1);border-radius:0px;padding:25px 30px;margin:30px;"
+      role="dialog" tabindex="-1" id="rstbox_17"><button type="button" data-ebox-cmd="close"
+        class="eb-close rstbox-close" aria-label="Close" style="color:rgba(174, 174, 174, 1);font-size:22px"><span
+          aria-hidden="true">×</span></button>
+      <div class="eb-container rstbox-container">
+        <div class="eb-content rstbox-content">
+          <div class="ebox-yes-no">
+            <div class="ebox-yn-text">
+              <div class="ebox-yn-headline" style="font-size:14px;color:#303030">
+                <p><img src="/joomla-dev-mrehab-2/images/Robbie/Robbie_happy.png"><i class="icon-warning"></i>Vous
+                  avez reçu {{ nb_notifs }} nouvelle(s) notifications(s) !</p>
+              </div>
+            </div>
+            <div class="ebox-ys-buttons" style="font-size: 13px;"><a data-ebox-prevent="0" data-ebox-cmd="close"
+                target="_self"
+                href="/joomla-dev-mrehab-2/index.php?option=com_content&amp;view=article&amp;id=106&amp;Itemid=343"
+                rel="noopener" class="ebox-ys-btn" style="background-color:#7abfc2;color:#ffffff;min-width:75px">Lire
+                les alertes </a><a data-ebox-cmd="close" href="#" class="ebox-ys-btn"
+                style="background-color:#c7c3c4;color:#303030;min-width:75px">Fermer </a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><a href="#" class="scrollToTop"></a>
+</body>
+
+</html>

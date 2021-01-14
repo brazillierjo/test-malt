@@ -1,0 +1,202 @@
+    /* Mobile Menu CK - https://www.joomlack.fr */
+    /* Automatic styles */
+
+    .mobilemenuck-bar {display:none;position:relative;left:0;top:0;right:0;z-index:100;}
+    .mobilemenuck-bar-title {display: block;}
+    .mobilemenuck-bar-button {cursor:pointer;box-sizing: border-box;position:absolute; top: 0; right: 0;line-height:0.8em;font-family:Segoe UI;text-align: center;}
+    .mobilemenuck {box-sizing: border-box;width: 100%;}
+    .mobilemenuck-topbar {position:relative;}
+    .mobilemenuck-title {display: block;}
+    .mobilemenuck-button {cursor:pointer;box-sizing: border-box;position:absolute; top: 0; right: 0;line-height:0.8em;font-family:Segoe UI;text-align: center;}
+    .mobilemenuck a {display:block;}
+    .mobilemenuck a:hover {text-decoration: none;}
+    .mobilemenuck .mobilemenuck-item > div {position:relative;}
+    /* for accordion */
+    .mobilemenuck-togglericon:after {cursor:pointer;text-align:center;display:block;position: absolute;right: 0;top: 0;content:"+";}
+    .mobilemenuck .open .mobilemenuck-togglericon:after {content:"-";}
+
+    [data-id="mobilemenuck-1"] .mobilemenuck-bar-title {
+      background: #158A83;
+      color: #FCBE00;
+      margin-top: 5px;
+      padding-top: 10px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      padding-left: 10px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    [data-id="mobilemenuck-1"] .mobilemenuck-bar-title a {
+      color: #FCBE00;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    [data-id="mobilemenuck-1"] .mobilemenuck-bar-button {
+      background: #158A83;
+      height: 43px;
+      width: 43px;
+      color: #FCBE00;
+      font-weight: bold;
+      font-size: 35px;
+    }
+
+    [data-id="mobilemenuck-1"] .mobilemenuck-bar-button a {
+      color: #FCBE00;
+      font-weight: bold;
+      font-size: 35px;
+    }
+
+    [data-id="mobilemenuck-1"].mobilemenuck {
+      padding-top: 5px;
+      padding-right: 5px;
+      padding-bottom: 5px;
+      padding-left: 5px;
+      font-weight: normal;
+      font-size: 25px;
+    }
+
+    [data-id="mobilemenuck-1"].mobilemenuck a {
+      font-weight: normal;
+      font-size: 25px;
+    }
+
+    [data-id="mobilemenuck-1"] .mobilemenuck-title {
+      background: #158A83;
+      height: 18px;
+      color: #FFFFFF;
+      padding-top: 10px;
+      padding-bottom: 25px;
+      text-align: center;
+    }
+
+    [data-id="mobilemenuck-1"] .mobilemenuck-title a {
+      color: #FFFFFF;
+    }
+
+    [data-id="mobilemenuck-1"] .mobilemenuck-item > .level1 {
+      background: #158A83;
+      color: #FCBE00;
+      padding-top: 5px;
+      padding-right: 5px;
+      padding-bottom: 5px;
+      padding-left: 5px;
+      font-size: 20px;
+    }
+
+    [data-id="mobilemenuck-1"] .mobilemenuck-item > .level1 a {
+      color: #FCBE00;
+      font-size: 20px;
+    }
+
+    [data-id="mobilemenuck-1"] .mobilemenuck-item > .level2 {
+      background: #FCBE00;
+      color: #FFFFFF;
+      padding-top: 5px;
+      padding-right: 5px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+    }
+
+    [data-id="mobilemenuck-1"] .mobilemenuck-item > .level2 a {
+      color: #FFFFFF;
+    }
+
+    [data-id="mobilemenuck-1"] .level2 + .mobilemenuck-submenu .mobilemenuck-item > div {
+      background: #158A83;
+      color: #FCBE00;
+      padding-top: 5px;
+      padding-right: 5px;
+      padding-bottom: 5px;
+      padding-left: 25px;
+      font-size: 15px;
+    }
+
+    [data-id="mobilemenuck-1"] .level2 + .mobilemenuck-submenu .mobilemenuck-item > div a {
+      color: #FCBE00;
+      font-size: 15px;
+    }
+
+    [data-id="mobilemenuck-1"] .mobilemenuck-togglericon:after {
+      height: 20px;
+      width: 20px;
+    }
+    .eboxCookieLaw .ebox-yn-headline {
+      text-align: left;
+    }
+    .eboxCookieLaw .ebox-ys-buttons {
+      justify-content: flex-start;
+      -webkit-justify-content: flex-start;
+    }
+    .eboxCookieLaw  .ebox-ys-buttons > a:first-child:before {
+      content: "\2714";
+      font-weight: bold;
+    }
+
+
+
+    .eb-14 .eb-close:hover {
+      color: rgba(128, 128, 128, 1) !important;
+    }
+
+    .ebYN1 .eb-h3 {
+      margin-bottom: 5px;
+      font-size: 23px;
+      font-weight: bold;
+    }
+    .ebYN1 .eb-h2 {
+      font-size: 32px;
+      line-height: 1.1;
+      color:#0f9d58;
+    }
+
+    .eb-16 .eb-close:hover {
+      color: rgba(128, 128, 128, 1) !important;
+    }
+
+    .eboxCookieLaw .ebox-yn-headline {
+      text-align: left;
+    }
+    .eboxCookieLaw .ebox-ys-buttons {
+      justify-content: flex-start;
+      -webkit-justify-content: flex-start;
+    }
+    .eboxCookieLaw  .ebox-ys-buttons > a:first-child:before {
+      content: "\2714";
+      font-weight: bold;
+    }
+
+    .eb-17 .eb-close:hover {
+      color: rgba(128, 128, 128, 1) !important;
+    }
+
+    .scrollToTop {
+      padding: 10px;
+      margin: 20px;
+      text-align: center;
+      font-weight: bold;
+      text-decoration: none;
+      position:fixed;
+      bottom: 0;
+      right: 0;
+      display: none;
+      z-index: 100;
+      width: 100px;
+      height: 100px;
+      color: inherit;
+      font-size: inheritpx;
+      font-family: inherit;
+      opacity: 1;
+      background-color: none;
+      background-image: url(/joomla-dev-mrehab-2/plugins/system/scrolltock/images/arrow_up.png);
+      background-position: center center ;
+      background-repeat: no-repeat;
+      border: 0px transparent solid;
+      border-radius: 0px;
+      box-shadow: transparent 0 0 0px;
+    }
+    .scrollToTop:hover {
+      text-decoration:none;
+      color: ;
+    }@media only screen and (max-width:780px){.scrollToTop {display: none !important;}}
